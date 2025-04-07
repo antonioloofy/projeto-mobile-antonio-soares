@@ -11,8 +11,8 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
+        source={require('@/assets/images/d-imagem.png')}
+        style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
@@ -37,7 +37,19 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">tipografia e desing </ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+        A tipografia nasceu da necessidade de reproduzir a escrita manual de forma mais eficiente, diferenciando-se da caligrafia por ser um processo de repetição em vez de uma criação individual. O termo “tipografia” vem do grego Týpos (impressão) e Graphía (escrita), remetendo à escrita impressa.
+
+O avanço decisivo ocorreu com os tipos móveis, que permitiram a organização de caracteres individuais em palavras, frases e parágrafos, possibilitando a impressão em grande escala. O primeiro grande livro tipográfico foi a Bíblia de Gutenberg, impressa por volta de 1450, revolucionando a produção de textos ao substituir o trabalho manual dos escribas.
+
+Os primeiros estilos tipográficos seguiram a escrita gótica, refletindo a caligrafia da época. No século XV, estudiosos e escritores migraram para um estilo mais leve, chamado lettera antica, que influenciaria os tipos humanistas. Com o tempo, surgiram variações como as letras itálicas, mais rápidas e econômicas.
+
+Durante o Renascimento, a tipografia começou a incorporar proporções humanas, como nos estudos de Geoffroy Tory. A inclusão das serifas proporcionou um acabamento diferenciado aos caracteres. Avanços como os tipos Transicionais, criados por Caslon e Baskerville, trouxeram variações de espessura nas letras.
+
+No século XIX, Bodoni e Didot enfatizaram contrastes marcantes entre traços finos e espessos, dando origem aos tipos Modernos. Paralelamente, a Revolução Industrial impulsionou a criação das fontes Display, usadas em anúncios por seu impacto visual exagerado.
+
+No século XX, houve uma reação contra esses excessos, promovendo uma busca por formas geométricas puras. Movimentos como os de Theo von Doesburg e Herbert Bayer criaram alfabetos simplificados. Paul Renner desenvolveu a tipografia Futura, baseada em formas geométricas perfeitas.
+
+Atualmente, a tipografia não depende mais de tipos móveis, mas sua evolução moldou os estilos usados na computação gráfica e na impressão moderna. Esse panorama nos prepara para uma análise mais profunda das propriedades e famílias tipográficas.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -58,17 +70,18 @@ const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
+    gap: 8
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
-  },
-});
+    stepContainer:{
+      gap: 8,
+      marginBottom: 8,
+    },
+    reactLogo: {
+      height: '100%',
+      width: '100%',
+      bottom: 0,
+      left: 0,
+      position: 'absolute',
+    },
+  });
+  
