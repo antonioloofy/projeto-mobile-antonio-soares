@@ -9,14 +9,15 @@ import { red } from 'react-native-reanimated/lib/typescript/Colors';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A2CEDC', dark: '#1D3D47' }}
+    headerBackgroundColor={{ light: '#8a2be2', dark: '#5F3C3C' }}
       headerImage={
         <Image
           source={require('@/assets/images/d-imagem.png')}
           style={styles.reactLogo}
         />
       }>
-      <ThemedView style={styles.titleContainer}>
+        
+        <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">desenho e tipografia</ThemedText>
         <HelloWave />
       </ThemedView>
@@ -74,8 +75,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8
+    
   },
   stepContainer: {
+    
     gap: 8,
     marginBottom: 8,
   },
@@ -89,3 +92,4 @@ const styles = StyleSheet.create({
     
   },
 });
+
