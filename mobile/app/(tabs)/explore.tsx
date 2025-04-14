@@ -10,11 +10,11 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
+      headerBackgroundColor={{ light: '#00ced1', dark: '#353636' }}
       headerImage={
         <IconSymbol
           size={310}
-          color="#808080"
+          color="#9400d3"
           name="chevron.left.forwardslash.chevron.right"
           style={styles.headerImage}
         />
@@ -97,13 +97,16 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
   headerImage: {
-    color: '#808080',
-    bottom: -90,
-    left: -35,
+    color: '#9400d3',
+    bottom: -60,
+    left: -15,
     position: 'absolute',
   },
   titleContainer: {
     flexDirection: 'row',
+  
     gap: 8,
+   
   },
+
 });
