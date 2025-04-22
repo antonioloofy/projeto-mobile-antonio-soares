@@ -78,9 +78,12 @@ const styles = StyleSheet.create({
     
   },
   stepContainer: {
-    
+    backgroundColor: '#00ced1',
     gap: 8,
     marginBottom: 8,
+    borderRadius:18,
+  
+    
   },
   reactLogo: {
     height: '100%',
@@ -91,5 +94,9 @@ const styles = StyleSheet.create({
     
     
   },
+  ParallaxScrollView: {
+    backgroundColor: '#00ced1',
+  },
+  
 });
 

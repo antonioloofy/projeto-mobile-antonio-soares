@@ -17,6 +17,7 @@ export default function TabTwoScreen() {
           color="#9400d3"
           name="chevron.left.forwardslash.chevron.right"
           style={styles.headerImage}
+          
         />
       }>
       <ThemedView style={styles.titleContainer}>
@@ -104,9 +105,10 @@ const styles = StyleSheet.create({
   },
   titleContainer: {
     flexDirection: 'row',
-  
     gap: 8,
+    
    
   },
+  
 
 });
