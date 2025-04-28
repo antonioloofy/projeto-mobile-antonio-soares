@@ -38,30 +38,22 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">tipografia e desing </ThemedText>
         <ThemedText>
           A tipografia nasceu da necessidade de reproduzir a escrita manual de forma mais eficiente, diferenciando-se da caligrafia por ser um processo de repetição em vez de uma criação individual. O termo “tipografia” vem do grego Týpos (impressão) e Graphía (escrita), remetendo à escrita impressa.
-
           O avanço decisivo ocorreu com os tipos móveis, que permitiram a organização de caracteres individuais em palavras, frases e parágrafos, possibilitando a impressão em grande escala. O primeiro grande livro tipográfico foi a Bíblia de Gutenberg, impressa por volta de 1450, revolucionando a produção de textos ao substituir o trabalho manual dos escribas.
-
           Os primeiros estilos tipográficos seguiram a escrita gótica, refletindo a caligrafia da época. No século XV, estudiosos e escritores migraram para um estilo mais leve, chamado lettera antica, que influenciaria os tipos humanistas. Com o tempo, surgiram variações como as letras itálicas, mais rápidas e econômicas.
-
           Durante o Renascimento, a tipografia começou a incorporar proporções humanas, como nos estudos de Geoffroy Tory. A inclusão das serifas proporcionou um acabamento diferenciado aos caracteres. Avanços como os tipos Transicionais, criados por Caslon e Baskerville, trouxeram variações de espessura nas letras.
-
           No século XIX, Bodoni e Didot enfatizaram contrastes marcantes entre traços finos e espessos, dando origem aos tipos Modernos. Paralelamente, a Revolução Industrial impulsionou a criação das fontes Display, usadas em anúncios por seu impacto visual exagerado.
-
           No século XX, houve uma reação contra esses excessos, promovendo uma busca por formas geométricas puras. Movimentos como os de Theo von Doesburg e Herbert Bayer criaram alfabetos simplificados. Paul Renner desenvolveu a tipografia Futura, baseada em formas geométricas perfeitas.
-
           Atualmente, a tipografia não depende mais de tipos móveis, mas sua evolução moldou os estilos usados na computação gráfica e na impressão moderna. Esse panorama nos prepara para uma análise mais profunda das propriedades e famílias tipográficas.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">criação e fundamentos</ThemedText>
         <ThemedText>
-        Linha: O elemento mais básico, capaz de definir contornos, sugerir movimento, expressar emoção e criar texturas através de variações em sua espessura e direção.
-Forma: A representação bidimensional de um objeto (como um círculo ou um quadrado) ou a silhueta de uma figura. Compreender as formas básicas é crucial para construir objetos mais complexos.
-Volume: A ilusão de profundidade em uma superfície plana. É criada através de técnicas como luz e sombra, perspectiva e sobreposição.
-Luz e Sombra: O jogo de claro e escuro que define a tridimensionalidade dos objetos, revela sua textura e cria atmosfera na composição. Entender a direção da luz e como ela interage com as superfícies é fundamental.
-Perspectiva: A técnica que simula a profundidade e a distância em um desenho, fazendo com que objetos pareçam menores à medida que se afastam do observador. A perspectiva linear (com pontos de fuga) e a perspectiva atmosférica (com a perda de detalhes e contraste na distância) são importantes ferramentas.
-Textura: A qualidade tátil de uma superfície, que pode ser visualmente representada através de diferentes tipos de linhas, pontos e hachuras.
-Composição: A organização dos elementos dentro do espaço do desenho. Uma boa composição guia o olhar do observador, cria equilíbrio e reforça a mensagem da obra. Elementos como a regra dos terços, o ponto focal e o espaço negativo são considerações importantes.
+ Linha:o fundamento mais base de todo o desenho, se estamos falando de estilo e traço e um grande diferenciador a linha para o desenho.
+Forma:utilizada juntamente com a perspectiva vai ajudar a simplificar coisas mais complexas e nortear o artista nos demais fundamentos.
+Luz e Sombra: basicamente um fundamento complementar que vai amplificar a noça de profundidade no desenho.
+Perspectiva: pontos de fuga, distorção noção de espaçamento etc. 
+Composição: Composição de cenas e desing são exemplos de aplicação desse fundamento vai estudar a pecepção e interpretação geral.
          
         </ThemedText>
       </ThemedView>
@@ -86,7 +78,7 @@ const styles = StyleSheet.create({
   },
   reactLogo: {
     height: '100%',
-    width: '100%',
+    width: '70%',
     bottom: 0,
     left: 0,
     position: 'absolute',

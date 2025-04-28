@@ -22,49 +22,48 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">estilos e traço</ThemedText>
+        <ThemedText type="subtitle">realismo estilizado</ThemedText>
         <ThemedText>
-          relação <ThemedText type="defaultSemiBold">são muitos os estilos de desenho(realismo,cartoon,animação entre outros) 
-            é importante consideralos para que possa-se desenvolver um estilo de traço coerente e consistente 
-            além de atender as suas expectativas de arte finalização.</ThemedText> 
+           <ThemedText type="defaultSemiBold">
+            aqui temos um exemplo de um realismo não tão classico mas com somente linhas é possivel chegar na mesma intenção de se reconhecer o objeto de desenho. 
+           <iframe src="https://assets.pinterest.com/ext/embed.html?id=1129840625258725086" height="336" width="236" frameborder="0" scrolling="no" ></iframe>
+            
+           <iframe src="https://assets.pinterest.com/ext/embed.html?id=1129840625258556676" height="443" width="236" frameborder="0" scrolling="no" ></iframe>
+           <iframe src="https://assets.pinterest.com/ext/embed.html?id=1129840625258556690" height="397" width="236" frameborder="0" scrolling="no" ></iframe>
+            </ThemedText> 
           
           <ThemedText type="defaultSemiBold">
            
-          </ThemedText>{' '}
-        
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">tipografia e desing </ThemedText>
-        <ThemedText>
-          A tipografia nasceu da necessidade de reproduzir a escrita manual de forma mais eficiente, diferenciando-se da caligrafia por ser um processo de repetição em vez de uma criação individual. O termo “tipografia” vem do grego Týpos (impressão) e Graphía (escrita), remetendo à escrita impressa.
+            </ThemedText>{' '}
+                
+                </ThemedText>
+              </ThemedView>
+              <ThemedView style={styles.stepContainer}>
+                <ThemedText type="subtitle">desenho estilo cartoon </ThemedText>
+                <ThemedText>
+                  aqui temos um estilo de desenho mais limpo e cartoonizado é uma marca super interessante para jogos de rpg.
 
-          O avanço decisivo ocorreu com os tipos móveis, que permitiram a organização de caracteres individuais em palavras, frases e parágrafos, possibilitando a impressão em grande escala. O primeiro grande livro tipográfico foi a Bíblia de Gutenberg, impressa por volta de 1450, revolucionando a produção de textos ao substituir o trabalho manual dos escribas.
+                  <iframe src="https://assets.pinterest.com/ext/embed.html?id=1129840625258556706" height="333" width="236" frameborder="0" scrolling="no" ></iframe>
+                  <iframe src="https://assets.pinterest.com/ext/embed.html?id=1129840625258556648" height="443" width="236" frameborder="0" scrolling="no" ></iframe>
+                 <iframe src="https://assets.pinterest.com/ext/embed.html?id=1129840625258556700" height="395" width="236" frameborder="0" scrolling="no" ></iframe>
 
-          Os primeiros estilos tipográficos seguiram a escrita gótica, refletindo a caligrafia da época. No século XV, estudiosos e escritores migraram para um estilo mais leve, chamado lettera antica, que influenciaria os tipos humanistas. Com o tempo, surgiram variações como as letras itálicas, mais rápidas e econômicas.
+                </ThemedText>
+              </ThemedView>
+              <ThemedView style={styles.stepContainer}>
+                <ThemedText type="subtitle">simbolos </ThemedText>
+                <ThemedText>
+ aqui é possível a implementação de uma arquitetura nos desenhos e promover uma assinatura única.
+  <iframe src="https://assets.pinterest.com/ext/embed.html?id=1129840625258557289" height="440" width="236" frameborder="0" scrolling="no" ></iframe>
 
-          Durante o Renascimento, a tipografia começou a incorporar proporções humanas, como nos estudos de Geoffroy Tory. A inclusão das serifas proporcionou um acabamento diferenciado aos caracteres. Avanços como os tipos Transicionais, criados por Caslon e Baskerville, trouxeram variações de espessura nas letras.
 
-          No século XIX, Bodoni e Didot enfatizaram contrastes marcantes entre traços finos e espessos, dando origem aos tipos Modernos. Paralelamente, a Revolução Industrial impulsionou a criação das fontes Display, usadas em anúncios por seu impacto visual exagerado.
 
-          No século XX, houve uma reação contra esses excessos, promovendo uma busca por formas geométricas puras. Movimentos como os de Theo von Doesburg e Herbert Bayer criaram alfabetos simplificados. Paul Renner desenvolveu a tipografia Futura, baseada em formas geométricas perfeitas.
 
-          Atualmente, a tipografia não depende mais de tipos móveis, mas sua evolução moldou os estilos usados na computação gráfica e na impressão moderna. Esse panorama nos prepara para uma análise mais profunda das propriedades e famílias tipográficas.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">criação e fundamentos</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
-  );
-}
+                </ThemedText>
+              </ThemedView>
+            </ParallaxScrollView>
+          );
+        }
+
 
 const styles = StyleSheet.create({
   titleContainer: {
