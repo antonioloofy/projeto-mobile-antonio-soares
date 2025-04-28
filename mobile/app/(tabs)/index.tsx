@@ -55,11 +55,14 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">criação e fundamentos</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+        Linha: O elemento mais básico, capaz de definir contornos, sugerir movimento, expressar emoção e criar texturas através de variações em sua espessura e direção.
+Forma: A representação bidimensional de um objeto (como um círculo ou um quadrado) ou a silhueta de uma figura. Compreender as formas básicas é crucial para construir objetos mais complexos.
+Volume: A ilusão de profundidade em uma superfície plana. É criada através de técnicas como luz e sombra, perspectiva e sobreposição.
+Luz e Sombra: O jogo de claro e escuro que define a tridimensionalidade dos objetos, revela sua textura e cria atmosfera na composição. Entender a direção da luz e como ela interage com as superfícies é fundamental.
+Perspectiva: A técnica que simula a profundidade e a distância em um desenho, fazendo com que objetos pareçam menores à medida que se afastam do observador. A perspectiva linear (com pontos de fuga) e a perspectiva atmosférica (com a perda de detalhes e contraste na distância) são importantes ferramentas.
+Textura: A qualidade tátil de uma superfície, que pode ser visualmente representada através de diferentes tipos de linhas, pontos e hachuras.
+Composição: A organização dos elementos dentro do espaço do desenho. Uma boa composição guia o olhar do observador, cria equilíbrio e reforça a mensagem da obra. Elementos como a regra dos terços, o ponto focal e o espaço negativo são considerações importantes.
+         
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
